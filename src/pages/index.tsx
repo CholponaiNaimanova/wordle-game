@@ -1,10 +1,9 @@
-import {ComponnetA, ComponentB} from '../components/index';
+import { Blocks } from "../components";
 
 const Main = () => {
   return (
     <div>
-      <ComponnetA />
-      <ComponentB />
+       <Blocks/>
     </div>
   );  
 };
