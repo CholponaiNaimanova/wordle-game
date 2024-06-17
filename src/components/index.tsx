@@ -1,1 +1,1 @@
-export * from './Blocks';
+export * from './Tile/index';

@@ -1,9 +1,10 @@
-import { Blocks } from "../components";
+import React from 'react';
 
 const Main = () => {
+
   return (
     <div>
-       <Blocks/>
+       
     </div>
   );  
 };
