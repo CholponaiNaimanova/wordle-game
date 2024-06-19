@@ -14,7 +14,6 @@ const WordG = () => {
     getTileClass,
     initializeGame,
   } = useWordle();
-  console.log(word);
 
   return (
     <div className="word-container">
@@ -36,13 +35,12 @@ const WordG = () => {
                     inputValue={inputValue}
                     tileClass={tileClass}
                   />
-                );
+                ); 
               })}
             </div>
           ))}
           {gameOver && (
             <div>
-              <p>Правильное слово: {word}</p>
               <button onClick={initializeGame}>Начать заново</button>
             </div>
           )}
